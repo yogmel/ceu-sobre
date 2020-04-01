@@ -1,0 +1,186 @@
+/* Estilos gerais */
+
+html {
+  font-size: 10px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+}
+
+.img-mockup_1 {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+
+.img-mockup_2 {
+  width: 100%;
+  max-width: 960px;
+  height: 250px;
+  background-color: grey;
+}
+
+.img-mockup_3 {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+  background-color: grey;
+}
+
+/* Fontes */
+
+h1, h2, h3, .citacao {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.subtitulo {
+  font-size: 2.4rem;
+  font-weight: lighter;
+}
+
+.citacao {
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+.destaque__texto {
+  font-size: 1.8rem;
+}
+
+.destaque_num {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+/* Layout */
+
+.grid {
+  max-width: 960px;
+  padding: 6rem 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+/* margin vertical */
+.mvs {
+  margin: 2rem 0;
+}
+
+.mvm {
+  margin: 4rem 0;
+}
+
+/* Cores */
+.bg-light {
+  background-color: #f3f3f3;
+}
+
+/* Header */
+.header {
+  justify-content: center;
+  min-height: 40rem;
+  align-items: flex-end;
+  padding: 1rem;
+  background:rgb(84, 162, 172);
+}
+
+.header__box {
+  text-align: center;
+}
+
+/* Sobre Section */
+.sobre__descricao {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobre__descricao > * {
+  margin: 0 10px;
+}
+
+.sobre__texto {
+  max-width: 60rem;
+}
+
+/* Trabalhos Caritativos Section */
+.destaque__circle {
+  background-color: rgb(84, 162, 172);
+  color: white;
+  padding: 3rem;
+  border-radius: 5rem;
+  text-align: center;
+}
+
+/* Doacao Section */
+.doacao__link {
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 33%;
+  margin: 3rem;
+}
+
+.doacao__link > * {
+  margin-bottom: 2rem;
+}
+
+.doacao__conta {
+  text-align: left;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 900px) {
+  .grid {
+    padding: 6rem;
+  }
+  
+  .sobre__descricao, .destaque, .doacao__box-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre__texto > p, .destaque__circle {
+    margin-top: 3rem;
+  }
+
+  .doacao__link {
+    width: 100%;
+    margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .grid {
+    padding: 5rem 3rem;
+  }
+}
