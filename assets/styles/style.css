@@ -9,6 +9,14 @@ body, h1, h2, h3, p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: rgb(53, 102, 108)
+}
+
 .img-mockup_1 {
   width: 100%;
   max-width: 300px;
@@ -98,10 +106,20 @@ p {
   margin: 4rem 0;
 }
 
+.pm {
+  padding: 4rem;
+}
+
 /* Cores */
 .bg-light {
   background-color: #f3f3f3;
 }
+
+/* Navegacao */
+.img-logo-w1 {
+  max-width: 45rem;
+}
+
 
 /* Header */
 .header {
@@ -155,6 +173,15 @@ p {
 
 .doacao__conta {
   text-align: left;
+}
+.doacao__img-container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.doacao__img {
+  max-width: 150px;
 }
 
 
