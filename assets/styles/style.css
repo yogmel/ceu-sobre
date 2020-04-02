@@ -191,9 +191,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20rem;
-  height: 20rem;
-  border-radius: 20rem;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 23rem;
 }
 
 .galeria > img {
