@@ -31,13 +31,6 @@ a, a:visited {
   background-color: grey;
 }
 
-.img-mockup_3 {
-  width: 100%;
-  max-width: 150px;
-  height: 150px;
-  background-color: grey;
-}
-
 /* Fontes */
 
 h1, h2, h3, .citacao {
@@ -118,20 +111,32 @@ p {
 /* Navegacao */
 .img-logo-w1 {
   max-width: 45rem;
+  width: 100%;
 }
 
+.logo {
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive-menu {
+  display: none;
+}
 
 /* Header */
 .header {
+  background: url(./../img/banner.jpeg) no-repeat;
+  background-size: cover;
   justify-content: center;
-  min-height: 40rem;
+  min-height: 38rem;
   align-items: flex-end;
-  padding: 1rem;
-  background:rgb(84, 162, 172);
 }
 
 .header__box {
   text-align: center;
+  color:white;
+  background:rgb(84, 162, 172);
+  padding: 3rem;
 }
 
 /* Sobre Section */
@@ -186,9 +191,30 @@ p {
 
 
 /* Media Query */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 940px) {
   .grid {
     padding: 6rem;
+  }
+
+  .logo {
+    justify-content: space-between;
+  }
+
+  .responsive-menu {
+    display: block;
+  }
+
+  #nav-wrap {
+    display: none;
+  }
+
+  .header {
+    min-height: 30rem;
+  }
+
+  .header__box {
+    padding: 2rem;
+    width: 100%;
   }
   
   .sobre__descricao, .destaque, .doacao__box-links {
@@ -203,6 +229,21 @@ p {
   .doacao__link {
     width: 100%;
     margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    flex-direction: column;
+  }
+
+  .logo > .responsive-menu {
+    margin-top: 2rem;
+  }
+
+  .header {
+    min-height: 40rem;
+    background-position: center;
   }
 }
 

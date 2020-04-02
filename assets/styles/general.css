@@ -111,7 +111,7 @@
 		/* show dropdown on hover */
 	}
 
-	@media only screen and (min-width: 961px) {
+	@media only screen and (min-width: 940px) {
 		.nav-wrap2 #nav {
 			margin: 0;
 			width: 100%;
