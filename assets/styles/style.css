@@ -1,4 +1,7 @@
 /* Estilos gerais */
+* {
+  box-sizing: border-box;
+}
 
 html {
   font-size: 10px;
@@ -131,6 +134,17 @@ p {
 
 .responsive-menu {
   display: none;
+  background:rgb(84, 162, 172);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+}
+
+.responsive-menu > div {
+  width: 15px;
+  background:  white;
+  height: 2px;
+  margin: 5px 0;
 }
 
 /* Header */
@@ -227,10 +241,6 @@ p {
 
   .responsive-menu {
     display: block;
-  }
-
-  #nav-wrap {
-    display: none;
   }
 
   .header {
