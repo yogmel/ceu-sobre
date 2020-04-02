@@ -17,6 +17,10 @@ a, a:visited {
   color: rgb(53, 102, 108)
 }
 
+.img-responsive {
+  width: 100%;
+}
+
 .img-mockup_1 {
   width: 100%;
   max-width: 300px;
@@ -65,12 +69,18 @@ p {
   font-style: italic;
 }
 
+.citacao-autor {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
 .destaque__texto {
   font-size: 1.8rem;
+  line-height: 1.2;
 }
 
 .destaque_num {
-  font-size: 3.6rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -154,12 +164,27 @@ p {
 }
 
 /* Trabalhos Caritativos Section */
+.destaque {
+  justify-content: space-between;
+}
+
 .destaque__circle {
   background-color: rgb(84, 162, 172);
   color: white;
   padding: 3rem;
   border-radius: 5rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20rem;
+}
+
+.galeria > img {
+  max-width: 35rem;
+  border-radius: 2rem;
 }
 
 /* Doacao Section */
