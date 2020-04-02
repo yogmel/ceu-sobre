@@ -228,6 +228,25 @@ p {
   max-width: 150px;
 }
 
+/* Footer */
+.footer {
+  background: #1b1e23;
+  color: white;
+}
+
+.footer__box {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footbot {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.6rem;
+}
 
 /* Media Query */
 @media only screen and (max-width: 940px) {
@@ -279,6 +298,11 @@ p {
   .header {
     min-height: 40rem;
     background-position: center;
+  }
+
+  .footer__box {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
