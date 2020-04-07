@@ -17,7 +17,7 @@ a {
 }
 
 a, a:visited {
-  color: rgb(53, 102, 108)
+  color: #0E7684;
 }
 
 .img-responsive {
@@ -139,7 +139,7 @@ p {
 
 .responsive-menu {
   display: none;
-  background:rgb(84, 162, 172);
+  background:#0E7684;
   border: none;
   padding: 1rem 2rem;
   border-radius: .5rem;
@@ -164,7 +164,7 @@ p {
 .header__box {
   text-align: center;
   color:white;
-  background:rgb(84, 162, 172);
+  background:#0E7684;
   padding: 3rem;
 }
 
@@ -192,7 +192,7 @@ p {
 }
 
 .destaque__circle {
-  background-color: rgb(84, 162, 172);
+  background-color: #0E7684;
   color: white;
   padding: 3rem;
   border-radius: 5rem;
@@ -212,7 +212,6 @@ p {
 
 /* Doacao Section */
 .doacao__link {
-  text-align: center;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
