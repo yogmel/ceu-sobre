@@ -234,18 +234,15 @@ p {
 .doacao__link {
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   width: 33%;
   margin: 3rem;
 }
 
 .doacao__link > * {
   margin-bottom: 2rem;
-}
-
-.doacao__conta {
   text-align: left;
 }
+
 .doacao__img-container {
   height: 150px;
   display: flex;
