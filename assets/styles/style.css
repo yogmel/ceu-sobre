@@ -182,7 +182,7 @@ p {
 }
 
 .sobre__descricao > * {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .sobre__texto {
@@ -192,6 +192,11 @@ p {
 .sobre__texto > p,
 .caridade__texto > p {
   margin-bottom: 1.2rem;
+}
+
+.caridade__titulo {
+  margin-bottom: 10px;
+  color: #0E7684;
 }
 
 /* Trabalhos Caritativos Section */
