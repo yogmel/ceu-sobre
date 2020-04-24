@@ -217,6 +217,22 @@ p {
   display: block;
 }
 
+.caridade__db-column {
+  display: flex;
+  margin: 3rem 0;
+  align-items: center;
+}
+
+.caridade__db-column > img {
+  width: 100%;
+  border-radius: 10px;
+  margin-right: 3rem;
+}
+
+.caridade__db-column > * {
+  max-width: 65%;
+}
+
 .destaque {
   justify-content: space-between;
 }
@@ -317,6 +333,19 @@ p {
 
   .sobre__texto > p, .destaque__circle {
     margin-top: 3rem;
+  }
+
+  .caridade__db-column {
+    flex-direction: column;
+  }
+
+  .caridade__db-column img {
+    margin-bottom: 2rem;
+    max-width: 40rem;
+  }
+
+  .caridade__db-column > * {
+    max-width: 100%;
   }
 
   .doacao__link {
