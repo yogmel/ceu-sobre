@@ -50,6 +50,11 @@ a {
   background-color: white;
 }
 
+.hr-short-black {
+  max-width: 250px;
+  border: 1px solid #333;
+}
+
 /* Fontes */
 
 h1, h2, h3, .citacao {
@@ -122,6 +127,10 @@ p {
 
 .mvm {
   margin: 4rem 0;
+}
+
+.mtm {
+  margin-top: 4rem;
 }
 
 .pm {
@@ -208,11 +217,47 @@ p {
 .lightgallery {
   flex-wrap: wrap;
   justify-content: center;
+  padding: 60px;
+}
+
+.lightgallery > a {
+  position: relative;
+  margin: 10px;
+}
+
+.lightgallery__overlay {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightgallery__overlay-icon {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.lightgallery > a:hover .lightgallery__overlay-icon {
+  opacity: 1;
+}
+
+.lightgallery > a:hover .lightgallery__overlay,
+.lightgallery > a:active .lightgallery__overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
 }
 
 .lightgallery > a > img {
   width: 100%;
-  margin: 10px;
   max-width: 250px;
 }
 
