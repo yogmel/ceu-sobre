@@ -204,6 +204,19 @@ p {
   text-transform: uppercase;
 }
 
+/* Galeria */
+.lightgallery {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lightgallery > a > img {
+  width: 100%;
+  margin: 10px;
+  max-width: 250px;
+}
+
+
 /* Trabalhos Caritativos Section */
 .caridade__box {
   overflow: hidden;
