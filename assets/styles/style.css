@@ -223,6 +223,7 @@ p {
 .lightgallery > a {
   position: relative;
   margin: 10px;
+  object-fit: cover;
 }
 
 .lightgallery__overlay {
@@ -259,6 +260,7 @@ p {
 .lightgallery > a > img {
   width: 100%;
   max-width: 250px;
+  max-height: 140px;
 }
 
 

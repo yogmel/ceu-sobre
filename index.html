@@ -116,9 +116,9 @@
           <h2 class="mtm">Conheça nossas ações!</h2>
 
           <div id="lightgallery" class="lightgallery flex">
-            <a href="./assets/img/gallery/01.jpg" data-sub-html="Caption: teste">
+            <a href="./assets/img/gallery/01.png">
               <img
-                src="./assets/img/gallery/01.jpg"
+                src="./assets/img/gallery/01.png"
               />
               <div class="lightgallery__overlay">
                 <img class="lightgallery__overlay-icon" src="./assets/img/icons/zoom.png">
@@ -138,6 +138,18 @@
             </a>
             <a href="./assets/img/gallery/04.jpg">
               <img src="./assets/img/gallery/04.jpg" />
+              <div class="lightgallery__overlay">
+                <img class="lightgallery__overlay-icon" src="./assets/img/icons/zoom.png">
+              </div>
+            </a>
+            <a href="./assets/img/gallery/05.jpg">
+              <img src="./assets/img/gallery/05.jpg" />
+              <div class="lightgallery__overlay">
+                <img class="lightgallery__overlay-icon" src="./assets/img/icons/zoom.png">
+              </div>
+            </a>
+            <a href="./assets/img/gallery/06.jpg">
+              <img src="./assets/img/gallery/06.jpg" />
               <div class="lightgallery__overlay">
                 <img class="lightgallery__overlay-icon" src="./assets/img/icons/zoom.png">
               </div>
@@ -382,9 +394,8 @@
     <script src="./assets/scripts/script.js"></script>
     <script>
       lightGallery(document.getElementById("lightgallery"), {
-        // mode: "lg-zoom-in",
         download: false,
-        loop: false,
+        loop: true,
         fullScreen: false,
       });
     </script>
