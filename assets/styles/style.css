@@ -74,6 +74,18 @@ p {
   line-height: 1.5;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .subtitulo {
   font-size: 2.4rem;
   font-weight: lighter;
@@ -138,6 +150,10 @@ p {
   border: 1px solid #ccc;
 }
 
+.margin-center {
+  margin: 0 auto !important;
+}
+
 /* margin vertical */
 .mvs {
   margin: 2rem 0;
@@ -153,6 +169,14 @@ p {
 
 .mts {
   margin-top: 2rem;
+}
+
+.mtm {
+  margin-top: 4rem;
+}
+
+.mbs {
+  margin-bottom: 2rem;
 }
 
 .pm {
@@ -390,6 +414,7 @@ p {
 
   .doacao__link {
     width: 100%;
+    max-width: 30rem;
     margin: 2rem;
   }
 }
@@ -449,8 +474,16 @@ p {
 }
 
 /* Natal Solidário */
+.cesta__duas-column > ul:not(:first-child) {
+  padding-left: 5rem;
+}
+
+.cesta__lista {
+  padding-left: 1.5rem;
+}
+
 .cesta__lista li {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: .5rem 0;
 }
 
@@ -465,4 +498,23 @@ p {
   padding: 0 2rem;
   border-radius: 5px;
   margin: 2rem 0;
+}
+
+@media (max-width: 550px) {
+  .ceia__ingredientes-container {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .cesta__duas-column > ul:not(:first-child) {
+    padding-left: 1.5rem;
+  }
+}
+
+.cesta__destaque {
+  border: 1px solid black;
+  padding: 25px 40px;
+  background: #f3f3f3;
 }
